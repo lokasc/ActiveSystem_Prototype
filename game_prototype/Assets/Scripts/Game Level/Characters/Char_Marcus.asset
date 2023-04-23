@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cad17085d50e6945ad85a19e81a945f, type: 3}
   m_Name: Char_Marcus
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 6037831702665637594, guid: 577f13632c7fd734c82f1de88c6c90e4, type: 3}
   isReady: 0
   charName: Marcus
   stats:

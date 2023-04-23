@@ -33,6 +33,7 @@ public class BattleSystem : MonoBehaviour
         // When finished, calls the StartBattle() function
         //startBattle = true;
         print("Starting game");
+        SpawnCharacters();
     }
 
     public void Update()
@@ -92,9 +93,12 @@ public class BattleSystem : MonoBehaviour
         allEntities.AddRange(other);
     }
 
-
+    // We might want to change this into an interface to allow different layouts.
     public void SpawnCharacters()
     {
-        
+        foreach(Character entity in allEntities)
+        {
+            Instantiate(entity.prefab);
+        }
     }
 }

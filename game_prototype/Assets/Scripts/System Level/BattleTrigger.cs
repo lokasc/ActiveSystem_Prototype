@@ -12,6 +12,8 @@ public class BattleTrigger : MonoBehaviour
     public EnemySet enemyList;
     public bool triggered;
 
+    // Maybe we want to add the map limit? 
+
 
 
     private void OnTriggerEnter(Collider other) {
